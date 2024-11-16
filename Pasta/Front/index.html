@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./css/style.css">
-<title>Projeto API</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>Projeto API</title>
 </head>
+
 <body>
-<div class="box">
-<h1>Cadastro</h1>
-<form action="">
-<input type="text" name="nome" placeholder="Nome">
-<input type="text" name="email" placeholder="Email">
-<input type="password" name="senha" placeholder="Senha">
-<input type="text" name="tel" placeholder="Telefone">
-<button>Cadastar</button>
-</form>
-</div>
+    
+    <div class="box form_black">
+        <h1>Cadastro</h1>
+        <form action="">
+            <input type="text" class="nome input" name="nome" placeholder="Nome">
+            <input type="text" class="email input" name="email" placeholder="Email">
+            <input type="password" class="senha input" name="senha" placeholder="Senha">
+            <input type="text" class="tel input" name="tel" placeholder="Telefone">
+            <button class="btn">Cadastar</button>
+            <span class="switch">Already have an account?
+            <label for="signup_toggle" class="signup_tog">
+                Sign In
+            </label>
+        </span>
+        </form>
+    </div>
 </body>
+
 </html>
