@@ -1,5 +1,5 @@
 const formulario = document.querySelector("form");
-
+const botao=document.querySelector("button");
 const Inome = document.querySelector(".nome");
 const Iemail = document.querySelector(".email");
 const Isenha = document.querySelector(".senha");
@@ -7,7 +7,7 @@ const Itel = document.querySelector(".tel");
 
 function cadastra (){
 
-    fetch("http://localhost:8080/cadastrar",
+    fetch("http://localhost:8080/usuarios",
     {
         headers: {
             'Accept': 'application/json',
